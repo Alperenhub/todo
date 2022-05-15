@@ -1,0 +1,81 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form class="todo-form">
+            <h1 class="todo-title">Yapılacaklar listesi</h1>
+            <div class="todo-div">
+                <input type="text" class="todo-input" placeholder="N'apcan">
+                   <button type="submit" class="todo-button">+</button> 
+            </div>
+        </form>
+        <div class="todo-container">
+            <div class="todo">
+                <div class="todo-left">
+                    <input type="checkbox" class="todo-checkbox">
+                    <span class="todo-text">Yazılım öğren</span>
+                </div>
+                <div class="todo-right">
+                    <button class="todo-delete">Sil</button>
+                    <button class="todo-edit">Düzenle</button>
+                </div>                
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+    <link rel="stylesheet" href="style.css">
+
+
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" id="txtItem" class="form-control" title="title">
+                                <div class="input-group-append">
+                                    <button id="btnCreate" class="btn btn-outline-secondary" type="button">Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="card-header">My List <button id="deleteAll" class="btn btn-danger btn-sm d-none">Delete All</button></div>
+                        <ul id="myList" class="list-group list-group-flush">
+                           
+                            
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="app.js"></script>
+</body>
+</html>
